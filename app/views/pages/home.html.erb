@@ -1,2 +1,29 @@
-<h1>Pages#home</h1>
-<p>Find me in app/views/pages/home.html.erb</p>
+<%= render "banner" %>
+
+<div class="container text-center mt-4">
+  <p>
+    <a class="btn btn-flat" data-bs-toggle="collapse" href="#multiCollapseExample1" role="button" aria-expanded="false" aria-controls="multiCollapseExample1">Why do I need a mentor?</a>
+    <button class="mx-3 btn btn-flat" type="button" data-bs-toggle="collapse" data-bs-target="#multiCollapseExample2" aria-expanded="false" aria-controls="multiCollapseExample2">Why should I become a mentor?</button>
+  </p>
+  <div class="row">
+    <div class="col">
+      <div class="collapse multi-collapse" id="multiCollapseExample1">
+        <div class="card card-body">
+          Mentors can help you grow a professional network by connecting you to others,
+          they also serve as coaches that can help you during times of change and/or transition,
+          challenging you, and pushing you to go farther than you thought you could go! Mentors can inspire you and keep you focused.
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="collapse multi-collapse" id="multiCollapseExample2">
+        <div class="card card-body">
+          It always important to broaden your horizons; your career may see you working with a wide range of people and it is
+          important that you are able to relate.
+          Leadership is also a valuable skill in any environment, and mentoring is a key part of it.
+          The ability to help otherswill be a key skill in your career.
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
