@@ -1,29 +1,128 @@
 <%= render "banner" %>
 
 <div class="container text-center mt-4">
-  <p>
-    <a class="btn btn-flat" data-bs-toggle="collapse" href="#multiCollapseExample1" role="button" aria-expanded="false" aria-controls="multiCollapseExample1">Why do I need a mentor?</a>
-    <button class="mx-3 btn btn-flat" type="button" data-bs-toggle="collapse" data-bs-target="#multiCollapseExample2" aria-expanded="false" aria-controls="multiCollapseExample2">Why should I become a mentor?</button>
-  </p>
-  <div class="row">
-    <div class="col">
-      <div class="collapse multi-collapse" id="multiCollapseExample1">
-        <div class="card card-body">
-          Mentors can help you grow a professional network by connecting you to others,
-          they also serve as coaches that can help you during times of change and/or transition,
-          challenging you, and pushing you to go farther than you thought you could go! Mentors can inspire you and keep you focused.
+
+  <%# Bootstrap collapse %>
+  <div style="padding-bottom: 30px">
+    <h2 class="home-margin mb-5 home-h2">You may be asking yourself...</h2>
+
+    <p class="mb-5 home-bootstrap">
+      <a class="btn btn-flat mb-3" data-bs-toggle="collapse" href="#multiCollapseExample1" role="button" aria-expanded="false" aria-controls="multiCollapseExample1">Why do I need a mentor?</a>
+      <button class="mb-3 mx-3 btn btn-flat" type="button" data-bs-toggle="collapse" data-bs-target="#multiCollapseExample2" aria-expanded="false" aria-controls="multiCollapseExample2">Why should I become a mentor?</button>
+    </p>
+
+    <section>
+      <div class="row">
+        <div class="col">
+          <div class="collapse multi-collapse" id="multiCollapseExample1">
+            <div class="card card-body">
+              Mentors can help you grow a professional network by connecting you to others,
+              they also serve as coaches that can help you during times of change and/or transition,
+              challenging you, and pushing you to go farther than you thought you could go! Mentors can inspire you and keep you focused.
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="collapse multi-collapse" id="multiCollapseExample2">
+            <div class=" card card-body">
+              It always important to broaden your horizons, your career may see you working with a wide range of people and it is
+              important that you are able to relate.
+              Leadership is also a valuable skill in any environment, and mentoring is a key part of it.
+              The ability to help others will be a key skill in your career.
+            </div>
+          </div>
         </div>
       </div>
-    </div>
-    <div class="col">
-      <div class="collapse multi-collapse" id="multiCollapseExample2">
-        <div class="card card-body">
-          It always important to broaden your horizons; your career may see you working with a wide range of people and it is
-          important that you are able to relate.
-          Leadership is also a valuable skill in any environment, and mentoring is a key part of it.
-          The ability to help otherswill be a key skill in your career.
-        </div>
-      </div>
-    </div>
+    </section>
   </div>
+</div>
+
+  <%# profession cards %>
+<section class="home-background py-5 mt-5">
+   <h2 class="home-margin text-center text-white mb-5">Tech Professions List</h2>
+  <div class="card-grid home-margin">
+
+    <article class= " mb-4">
+      <div class="card" style="width: 18rem; height: 26rem">
+        <img class="card-img-top img-thumbnail" src="<%= image_path('frontend.jpg')  %>">
+        <div class="card-body text-center">
+            <h5 class="card-title text-primary">Front-end</h5>
+            <p class="card-text">Front-end web development is the development of the graphical user interface of a website,
+            through the use of HTML, CSS, and JavaScript, so that users can view and interact with that website</p>
+        </div>
+      </div>
+    </article>
+
+    <article class= "mb-5">
+      <div class="card" style="width: 18rem; height: 26rem">
+        <img class="card-img-top img-thumbnail" src="<%= image_path('backend.jpg')  %>">
+        <div class="card-body text-center">
+            <h5 class="card-title text-primary">Back-end</h5>
+            <p class="card-text">Back-end developers are the experts who build and maintain the mechanisms
+             that process data and perform actions on websites.</p>
+        </div>
+      </div>
+    </article>
+
+    <article class= "mb-5">
+      <div class="card" style="width: 18rem; height: 26rem">
+        <img class="card-img-top img-thumbnail" src="<%= image_path('devops.jpg')  %>">
+        <div class="card-body text-center">
+            <h5 class="card-title text-primary">Devops engineer</h5>
+            <p class="card-text">A DevOps engineer is an IT generalist who should have a wide-ranging knowledge of both development and operations,
+             including coding, infrastructure management, system administration, and DevOps toolchains.</p>
+        </div>
+      </div>
+    </article>
+
+
+        <article class= "mb-5">
+      <div class="card" style="width: 18rem; height: 26rem">
+        <img class="card-img-top img-thumbnail" src="<%= image_path('product-manager.png')  %>">
+        <div class="card-body text-center">
+            <h5 class="card-title text-primary">Product manager</h5>
+            <p class="card-text">A product manager (PM) is a professional role that is responsible for the development of products for an organization,
+             known as the practice of product management.</p>
+        </div>
+      </div>
+    </article>
+
+        <article class= "mb-5">
+      <div class="card" style="width: 18rem; height: 26rem">
+        <img class="card-img-top img-thumbnail" src="<%= image_path('data-engineer.jpg')  %>">
+        <div class="card-body text-center">
+            <h5 class="card-title text-primary">Data engineer</h5>
+            <p class="card-text">A data engineer is an IT worker whose primary job is to prepare data for analytical or operational uses.
+        </div>
+      </div>
+    </article>
+
+        <article class= "mb-5">
+      <div class="card" style="width: 18rem; height: 26rem">
+        <img class="card-img-top img-thumbnail" src="<%= image_path('software.jpg')  %>">
+        <div class="card-body text-center">
+            <h5 class="card-title text-primary">Software engineer</h5>
+            <p class="card-text">A software engineer is a person who applies
+             the principles of software engineering to design, develop, maintain, test, and evaluate computer software.</p>
+        </div>
+      </div>
+    </article>
+
+        <article class= "mb-5">
+      <div class="card" style="width: 18rem; height: 26rem">
+        <img class="card-img-top img-thumbnail" src="<%= image_path('data-scientist.jpg')  %>">
+        <div class="card-body text-center">
+            <h5 class="card-title text-primary">Data Scientist</h5>
+            <p class="card-text">A data scientist is a professional responsible for collecting, analyzing and interpreting extremely large amounts of data.
+        </div>
+      </div>
+    </article>
+  </div>
+</section>
+
+<%# footer %>
+<div class="footer">
+
+  <div class="footer-copyright">
+    Mentorship © direitos reservados.  </div>
 </div>

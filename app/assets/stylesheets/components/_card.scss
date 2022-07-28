@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+SC&family=Poppins:wght@200;400;700&family=Source+Sans+Pro:wght@200&family=Special+Elite&display=swap');
+
+.font-special{
+  font-family: 'Special Elite', cursive;
+}
+
+.card-grid{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-items: center;
+  gap: 20px;
+
+  @media screen and (max-width:950px) {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  @media screen and (max-width:650px) {
+    grid-template-columns: 1fr;
+  }
+
+}
