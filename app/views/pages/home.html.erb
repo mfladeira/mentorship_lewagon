@@ -38,10 +38,10 @@
 
   <%# profession cards %>
 <section class="home-background py-5 mt-5">
-   <h2 class="home-margin text-center text-white mb-5">Tech Professions List</h2>
+   <h2 class="home-border-bottom home-margin text-center text-white mb-5">Tech Jobs List</h2>
   <div class="card-grid home-margin">
 
-    <article class= " mb-4">
+    <article class= "mb-4">
       <div class="card" style="width: 18rem; height: 26rem">
         <img class="card-img-top img-thumbnail" src="<%= image_path('frontend.jpg')  %>">
         <div class="card-body text-center">
@@ -119,9 +119,4 @@
   </div>
 </section>
 
-<%# footer %>
-<div class="footer">
-
-  <div class="footer-copyright">
-    Mentorship © direitos reservados.  </div>
-</div>
+<%= render "footer" %>
