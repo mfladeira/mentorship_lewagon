@@ -1,0 +1,5 @@
+<% @services.each do |service| %>
+  <% user = User.find(service.user_id) %>
+  <p><%= user.email %></p>
+  <p><%= service.specialty %></p>
+<% end %>
