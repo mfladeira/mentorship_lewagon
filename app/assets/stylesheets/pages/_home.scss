@@ -5,5 +5,21 @@
 
 .home-border-bottom{
   border-bottom: 5px solid white;
-  width: 230px;
-  margin: 0 auto;}
+  text-align: center;
+  margin: 0 auto;
+}
+
+.cardInfo {
+  transition: .3s;
+  &:hover {
+    opacity: .8;
+  }
+}
+
+.home-h3{
+  margin: 0;
+  color: black;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+  font-size: 30px;
+  font-weight: bold;
+}

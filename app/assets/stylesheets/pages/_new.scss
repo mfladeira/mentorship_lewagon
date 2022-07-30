@@ -1,0 +1,20 @@
+.containerForm {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+
+  .form {
+    width: 35vw;
+    margin-top: 30px;
+
+    .title {
+      margin: 0;
+      color: black;
+      text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+      font-size: 30px;
+      font-weight: bold;
+    }
+  }
+}

@@ -54,7 +54,6 @@ ActiveRecord::Schema.define(version: 2022_07_30_094735) do
   end
 
   create_table "services", force: :cascade do |t|
-    t.string "name"
     t.decimal "price", precision: 8, default: "0"
     t.text "description"
     t.string "specialty"
