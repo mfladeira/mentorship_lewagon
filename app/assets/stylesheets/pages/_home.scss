@@ -6,4 +6,12 @@
 .home-border-bottom{
   border-bottom: 5px solid white;
   width: 230px;
-  margin: 0 auto;}
+  margin: 0 auto;
+}
+
+.cardInfo {
+  transition: .3s;
+  &:hover {
+    opacity: .8;
+  }
+}

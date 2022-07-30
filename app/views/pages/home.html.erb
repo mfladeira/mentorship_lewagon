@@ -39,18 +39,21 @@
   <%# profession cards %>
 <section class="home-background py-5 mt-5">
    <h2 class="home-border-bottom home-margin text-center text-white mb-5">Tech Jobs List</h2>
-  <div class="card-grid home-margin">
+   <div class="card-grid home-margin">
 
-    <article class= "mb-4">
-      <div class="card" style="width: 18rem; height: 26rem">
-        <img class="card-img-top img-thumbnail" src="<%= image_path('frontend.jpg')  %>">
-        <div class="card-body text-center">
-            <h5 class="card-title text-primary">Front-end</h5>
-            <p class="card-text">Front-end web development is the development of the graphical user interface of a website,
-            through the use of HTML, CSS, and JavaScript, so that users can view and interact with that website</p>
+    <%= link_to '/get-mentors/Front', style: "text-decoration: none; color: inherit", class: "cardInfo" do %>
+      <article class= "mb-4">
+        <div class="card" style="width: 18rem; height: 26rem">
+          <img class="card-img-top img-thumbnail" src="<%= image_path('frontend.jpg')  %>">
+          <div class="card-body text-center">
+              <h5 class="card-title text-primary">Front-end</h5>
+              <p class="card-text">Front-end web development is the development of the graphical user interface of a website,
+              through the use of HTML, CSS, and JavaScript, so that users can view and interact with that website</p>
+          </div>
         </div>
-      </div>
-    </article>
+      </article>
+    <% end %>
+
 
     <article class= "mb-5">
       <div class="card" style="width: 18rem; height: 26rem">
