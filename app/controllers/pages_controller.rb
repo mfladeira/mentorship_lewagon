@@ -4,14 +4,14 @@ class PagesController < ApplicationController
   def home
     @cards = [
       {
-        link_path: "/get-mentors/Front-End",
+        link_path: "/get-mentors/Front-end",
         image_path: "frontend.jpg",
         title: "Front-end",
         content: "Front-end web development is the development of the graphical user interface of a website,
         through the use of HTML, CSS, and JavaScript, so that users can view and interact with that website."
       },
       {
-        link_path: "/get-mentors/Back-End",
+        link_path: "/get-mentors/Back-end",
         image_path: "backend.jpg",
         title: "Back-end",
         content: "Back-end developers are the experts who build and maintain the mechanisms

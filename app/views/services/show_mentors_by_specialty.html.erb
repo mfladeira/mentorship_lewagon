@@ -1,16 +1,16 @@
 <%= render "pages/banner" %>
 
-<section class="home-background py-5">
-  <h2 class="home-border-bottom home-margin text-center text-white mb-5">Front-end</h2>
-
+<section class="home-background py-5" style="width: 100%;">
+  <h2 class="home-border-bottom home-margin text-center text-white mb-5">Services of <%= @speacilty %></h2>
   <div class="card-grid">
     <% @services.each do |service| %>
-      <div class="card" style="width: 18rem; height: 26rem">
-        <p><%=cl_image_tag service.user.photo.key, class:"card-img-top img-thumbnail" %></p>
-        <div class="card-body text-center">
-          <h5 class="card-title text-primary"><p><%= service.name %></p></h5>
-          <p>Price per hour: <%= service.price %>$</p>
-          <p>Description: <%= service.description %></p>
+      <% user = User.find_by(id: service[:user_id]) %>
+      <div class="card" style="width: 18rem; cursor: pointer">
+        <%=cl_image_tag service.user.photo.key, class:"card-img-top img-thumbnail", style: "height:230px" %>
+        <div class="card-body text-left">
+          <p class="card-title">Name: <strong><%= user.full_name %></strong></p>
+          <p>Price per hour: <strong><%= service.price %>$</strong></p>
+          <p>Description: <strong><%= service.description %></strong></p>
         </div>
       </div>
     <% end %>
