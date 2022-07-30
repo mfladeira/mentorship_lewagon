@@ -1,5 +1,20 @@
-<% @services.each do |service| %>
-  <% user = User.find(service.user_id) %>
-  <p><%= user.email %></p>
-  <p><%= service.specialty %></p>
-<% end %>
+<%= render "pages/banner" %>
+
+<section class="home-background py-5">
+  <h2 class="home-border-bottom home-margin text-center text-white mb-5">Front-end</h2>
+
+  <div class="card-grid">
+    <% @services.each do |service| %>
+      <div class="card" style="width: 18rem; height: 26rem">
+        <p><%=cl_image_tag service.user.photo.key, class:"card-img-top img-thumbnail" %></p>
+        <div class="card-body text-center">
+          <h5 class="card-title text-primary"><p><%= service.name %></p></h5>
+          <p>Price per hour: <%= service.price %>$</p>
+          <p>Description: <%= service.description %></p>
+        </div>
+      </div>
+    <% end %>
+  </div>
+</section>
+
+<%= render "pages/footer" %>
