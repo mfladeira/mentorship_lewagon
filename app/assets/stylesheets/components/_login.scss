@@ -1,5 +1,25 @@
+.login-container {
+  display: flex;
+  width: 90vw;
+  height: 80vh;
+}
 
-.btn {
+.left-col {
+  width: 40vw;
+  height: 75%;
+  background-image: url("https://images.squarespace-cdn.com/content/v1/5b684f8caa49a1992d46460a/1558289454752-0NLO8DPJTDTV40BTJR6F/31A.+8a.%2BMentorship%2B-%2Bshutterstock_465546794.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.right-col {
+  background: var(--bg-color);
+  width: 50vw;
+  height: 75%;
+  padding: 5rem 3.5rem;
+}
+
+.btn-login {
   width: 100%;
   background: #dedfc5;
   padding: 15px;
