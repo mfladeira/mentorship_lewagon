@@ -1,13 +1,30 @@
+.login-container {
+  display: flex;
+  justify-content: center;
+  height: calc(100vh - 100px);
+  padding: 80px;
 
-.btn {
-  width: 100%;
-  background: #dedfc5;
-  padding: 15px;
-  font-size: 16px;
-  border: 1;
-  border-radius: 5px;
+  .left-col {
+    width: 40vw;
+    height: 600px;
+    background-image: url("https://images.squarespace-cdn.com/content/v1/5b684f8caa49a1992d46460a/1558289454752-0NLO8DPJTDTV40BTJR6F/31A.+8a.%2BMentorship%2B-%2Bshutterstock_465546794.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  .right-col {
+    background: var(--bg-color);
+    width: 50vw;
+    height: 75%;
+  }
+
+  .btn-login {
+    width: 100%;
+    background: #dedfc5;
+    padding: 15px;
+    font-size: 16px;
+    border: 1;
+    border-radius: 5px;
+  }
 }
-
-
-//.color1 { #b2b39f }; .color2 { #c8c9b5 }; .color3 { #dedfc5 };
-//background .color4 { #f5f7bd }; .color5 { #3d423c }; letras
