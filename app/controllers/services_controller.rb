@@ -7,4 +7,11 @@ class ServicesController < ApplicationController
     speacilty = params[:specialty]
     @services = Service.where(specialty: speacilty)
   end
+
+  def new
+    @service = Service.new
+  end
+
+  def create
+  end
 end
