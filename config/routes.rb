@@ -7,7 +7,7 @@ Rails.application.routes.draw do
     sessions: 'users/sessions'
   }
 
-  resources :services, only: [:index, :new, :create] do
+  resources :services, only: [:index, :new, :create, :show] do
     resources :orders, only: [:index, :new, :create]
   end
 

@@ -45,6 +45,7 @@ ActiveRecord::Schema.define(version: 2022_07_30_094735) do
 
   create_table "orders", force: :cascade do |t|
     t.decimal "price", precision: 8, default: "0"
+    t.datetime "date_of_order"
     t.bigint "service_id", null: false
     t.bigint "user_id", null: false
     t.datetime "created_at", precision: 6, null: false

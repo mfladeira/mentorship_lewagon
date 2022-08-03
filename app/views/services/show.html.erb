@@ -1,0 +1,7 @@
+<h2>Agendar serviço</h2>
+<p>Info do usuario</p>
+<%= form_with url: "/services/#{@service[:id]}/orders", method: :post do |form| %>
+  <%= form.label :date, "Data:" %>
+  <%= form.date_field :date %>
+  <%= form.submit "Agendar" %>
+<% end %>
