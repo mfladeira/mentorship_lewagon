@@ -21,6 +21,7 @@ class ServicesController < ApplicationController
     @service.user = current_user
     @service.save
 
+
     redirect_to root_path
   end
 
