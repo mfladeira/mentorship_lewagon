@@ -5,5 +5,5 @@ class User < ApplicationRecord
          :recoverable, :rememberable, :validatable
   has_many :services
   has_one_attached :photo
-  validates :photo, presence: true
+  #validates :photo, presence: true
 end
