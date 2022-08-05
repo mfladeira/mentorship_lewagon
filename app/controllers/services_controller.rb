@@ -5,7 +5,7 @@ class ServicesController < ApplicationController
 
   def show_mentors_by_specialty
     @speacilty = params[:specialty]
-    @services = Service.where(specialty: @speacilty)
+    @services = Service.where('user_id != ? and specialty = ?', current_user.id, @speacilty)
   end
 
   def show

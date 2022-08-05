@@ -2,6 +2,10 @@
   background-color: #081020;
 }
 
+.containerSchedule{
+  height: calc(100vh - 170px);
+}
+
 .white-text{
   color: white;
 }
@@ -32,4 +36,15 @@
 .show-name{
   font-size: 2em;
   font-weight: 700;
+}
+
+.btn-reserve {
+  background-color: #081020;
+  color: white;
+  border: 1px solid white;
+  border-radius: 5px;
+
+  &:hover {
+    opacity: .8;
+  }
 }
