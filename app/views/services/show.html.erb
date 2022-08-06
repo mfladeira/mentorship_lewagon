@@ -21,7 +21,7 @@
                     <div>
                       <strong><p>Book a meeting with me for: <mark>$<%= @service.price %>/hour<mark></p></strong>
                       <%= form_with url: "/services/#{@service[:id]}/orders", method: :post do |form| %>
-                        <%= form.datetime_local_field :date %>
+                        <%= form.datetime_field :date %>
                         <%= form.submit "Reservar", class: 'btn-reserve' %>
                       <% end %>
                     </div>
