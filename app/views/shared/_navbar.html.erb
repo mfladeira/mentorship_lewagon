@@ -14,8 +14,11 @@
           <li class="nav-item active">
             <%= link_to "Home", "/", class: "nav-link" %>
           </li>
+          <li class="nav-item active">
+            <%= link_to "My services", "/get-service-of-user", class: "nav-link" %>
+          </li>
           <li class="nav-item">
-            <%= link_to "Transactions", "/get-orders-of-user", class: "nav-link" %>
+            <%= link_to "Meetings", "/get-orders-of-user", class: "nav-link" %>
           </li>
           <li class="nav-item dropdown">
             <%= cl_image_tag current_user.photo.key, class: "avatar dropdown-toggle", id: "navbarDropdown", data: { bs_toggle: "dropdown" }, 'aria-haspopup': true, 'aria-expanded': false %>

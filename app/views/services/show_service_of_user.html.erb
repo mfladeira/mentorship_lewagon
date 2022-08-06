@@ -1,0 +1,19 @@
+<div class="background-orders">
+  <div class="container container-width background-orders-1">
+    <h2 class="text-center text-h2 py-5"><u>My services</u></h2>
+    <% if @service %>
+      <div class="card-product mb-5">
+        <p><%= cl_image_tag current_user.photo.key  %>
+        <div class="card-product-infos m-2">
+          <div>
+              <h2 class="text-center h2-header pb-3"><%= current_user.full_name %> - <%= @service.specialty%></h2>
+              <h2 class="pb-3">Description: <%= @service.description %></h2>
+              <span class="circle-price">$<%= @service.price %></span>
+          </div>
+        </div>
+      </div>
+    <% else %>
+      <h2 class="text-white">No services yet...</h2>
+    <% end %>
+  </div>
+</div>

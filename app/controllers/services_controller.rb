@@ -12,6 +12,10 @@ class ServicesController < ApplicationController
     @service = Service.find(params[:id])
   end
 
+  def show_service_of_user
+    @service = Service.where('user_id = ?', current_user.id).first
+  end
+
   def new
     @service = Service.new
   end
