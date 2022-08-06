@@ -14,4 +14,6 @@ Rails.application.routes.draw do
   get '/get-mentors/:specialty', to: 'services#show_mentors_by_specialty'
 
   get '/get-orders-of-user', to: 'orders#get_orders'
+
+  get '/get-service-of-user', to: 'services#show_service_of_user'
 end
