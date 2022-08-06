@@ -24,7 +24,11 @@
     background: #dedfc5;
     padding: 15px;
     font-size: 16px;
-    border: 1;
     border-radius: 5px;
   }
+
+  .btn-login:hover {
+opacity: .5;
+  }
 }
+
