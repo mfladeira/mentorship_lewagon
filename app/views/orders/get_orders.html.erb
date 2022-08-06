@@ -1,7 +1,25 @@
-<h2>Transações</h2>
-<div class="container">
-  <% @orders.each do |order| %>
-    <p><%= order.price %></p>
-    <p><%= order.date_of_order %></p>
-  <% end %>
+<div class="background-orders">
+  <div class="container container-width background-orders-1">
+    <h2 class="text-center text-h2 py-5"><u>Transactions</u></h2>
+
+    <% @orders.each do |order| %>
+      <div class="card-product mb-5">
+        <p><%= cl_image_tag order.service.user.photo.key  %>
+        <div class="card-product-infos">
+          <div>
+              <h2 class="text-center h2-header pb-3"><%= order.service.user.full_name %> - <%= order.service.specialty%></h2>
+          </div>
+          <div class="position-relative">
+               <p class="position-absolute circle-price">$<%= order.price %></p>
+              <% t = order.date_of_order %> <% t1 = order.date_of_order + 1*60*60 %>
+              <% t %>
+              <%= t.strftime("Schedulled on %m/%d/%Y")%>
+              from<strong><mark><%= t.strftime(" %I:%M %p")%></mark></strong> to
+              <strong><mark><%= t1.strftime(" %I:%M %p")%></mark></strong><br>
+              Skype adress:<mark> <%= order.service.user.email %></mark>
+          </div>
+        </div>
+      </div>
+              <% end %>
+  </div>
 </div>
