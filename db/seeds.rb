@@ -28,7 +28,7 @@ case Rails.env
           "1 ano de experiencia, formado no batch #840", "7 anos de experiencia, formado no batch #496", "4 anos de experiencia, formado no batch #500",
           "8 anos de experiencia, formado no batch #250", "6 anos de experiencia, formado no batch #463", "10 anos de experiencia, formado no batch #566",
           "6 meses de experiencia, formado no batch #860"].sample,
-        price: %w[50...280].sample,
+        price: (50..280).to_a.sample,
         user_id: user.id
       )
     end
