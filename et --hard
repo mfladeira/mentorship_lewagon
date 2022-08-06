@@ -1,0 +1,239 @@
+[33mcommit 9ed577903ebeda5c06770082f1e2f064a1dfc215[m[33m ([m[1;36mHEAD -> [m[1;32mservicesView[m[33m, [m[1;31morigin/buy-service[m[33m)[m
+Author: Mateus Ferreira <mateusferreira0704@gmail.com>
+Date:   Tue Aug 2 21:41:39 2022 -0300
+
+    added buy service
+
+[33mcommit fe72e93080ce2f99b2c45535e0bc9723976a3896[m[33m ([m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: Mateus Ferreira <mateusferreira0704@gmail.com>
+Date:   Sat Jul 30 17:20:28 2022 -0300
+
+    production.rb changed
+
+[33mcommit bbeb387a0a42bd670b81ddf040b4f6c0ad052ddb[m
+Merge: 2fe6418 ef217a2
+Author: Leonardo Fukuje <96839904+leonardo-fukuje@users.noreply.github.com>
+Date:   Sat Jul 30 16:59:33 2022 -0300
+
+    Merge pull request #5 from mfladeira/filters
+    
+    Filters
+
+[33mcommit ef217a20a2d26a5ae76509f9815b185fe0926fcc[m[33m ([m[1;31morigin/filters[m[33m)[m
+Author: Mateus Ferreira <mateusferreira0704@gmail.com>
+Date:   Sat Jul 30 16:56:46 2022 -0300
+
+    changed table services
+
+[33mcommit 4a5eaee0487e6e13876d5626eeb38ca570bded0d[m
+Merge: 7c526e4 89155ee
+Author: Mateus Ferreira <mateusferreira0704@gmail.com>
+Date:   Sat Jul 30 16:15:08 2022 -0300
+
+    merged with branch surveysView
+
+[33mcommit 7c526e41a51bc266944977eb41ca46d7d4499a72[m
+Author: Mateus Ferreira <mateusferreira0704@gmail.com>
+Date:   Sat Jul 30 16:14:29 2022 -0300
+
+    refactor
+
+[33mcommit 89155ee7a3f38a0e2ec0a8cd46ee1314bd4ee97b[m[33m ([m[1;31morigin/servicesView[m[33m)[m
+Author: leonardo fukuje <leonardo.fukuje@gmail.com>
+Date:   Sat Jul 30 16:11:30 2022 -0300
+
+    added service page
+
+[33mcommit 4083f81b9e06ad0dd80c489fc8c62957578ad2ac[m
+Merge: 2fe6418 e7cc522
+Author: leonardo fukuje <leonardo.fukuje@gmail.com>
+Date:   Sat Jul 30 14:27:35 2022 -0300
+
+    Merge branch 'filters' of github.com:mfladeira/mentorship_lewagon into servicesView
+
+[33mcommit e7cc5223ac6722b9ecc13dc061c3f16ef3417119[m
+Author: Mateus Ferreira <mateusferreira0704@gmail.com>
+Date:   Sat Jul 30 14:26:43 2022 -0300
+
+    added link in home card
+
+[33mcommit 2fe641876f5fe7c6fed1052547098f3748412760[m
+Merge: 9adf874 e89d31f
+Author: Mateus Ferreira <mateusferreira0704@gmail.com>
+Date:   Sat Jul 30 12:41:23 2022 -0300
+
+    Merge pull request #4 from mfladeira/filters
+    
+    added input
+
+[33mcommit e89d31f81b0efa84f77ac24ca4296ed2f8f2f7d1[m
+Author: Mateus Ferreira <mateusferreira0704@gmail.com>
+Date:   Sat Jul 30 12:40:01 2022 -0300
+
+    added input
+
+[33mcommit 9adf874003cb98316b045f0e2dafa9c124acdde7[m
+Merge: a52ad46 a930b8e
+Author: Mateus Ferreira <mateusferreira0704@gmail.com>
+Date:   Sat Jul 30 12:38:07 2022 -0300
+
+    Merge pull request #3 from mfladeira/filters
+    
+    Filters
+
+[33mcommit a930b8ef1309e27e1fcf1ce1a2135c72ae6e8842[m
+Merge: 5711937 ed69722
+Author: Mateus Ferreira <mateusferreira0704@gmail.com>
+Date:   Sat Jul 30 12:26:41 2022 -0300
+
+    Merge branch 'servicesView' of github.com:mfladeira/mentorship_lewagon into filters
+
+[33mcommit ed69722819876031ed8a4b41284b130f979a6157[m
+Author: leonardo fukuje <leonardo.fukuje@gmail.com>
+Date:   Sat Jul 30 12:26:14 2022 -0300
+
+    added sign_up photo
+
+[33mcommit 5711937e5336717ced8023c9203220cd7ff944c0[m
+Author: Mateus Ferreira <mateusferreira0704@gmail.com>
+Date:   Sat Jul 30 12:20:22 2022 -0300
+
+    change style login
+
+[33mcommit 5fbcc00c66419f70a7b1017bf72466979aeeb583[m
+Merge: ca293f7 1e188d0
+Author: Mateus Ferreira <mateusferreira0704@gmail.com>
+Date:   Sat Jul 30 12:15:05 2022 -0300
+
+    Merge branch 'servicesView' of github.com:mfladeira/mentorship_lewagon into filters
+
+[33mcommit 1e188d01c633762f4bd83352986e9af6628c57b5[m
+Author: leonardo fukuje <leonardo.fukuje@gmail.com>
+Date:   Sat Jul 30 12:14:31 2022 -0300
+
+    added photo
+
+[33mcommit ca293f73846aa6f431c9f62974e07f7a7a3069e0[m
+Merge: 75184ca 17ff76e
+Author: Mateus Ferreira <mateusferreira0704@gmail.com>
+Date:   Sat Jul 30 11:46:18 2022 -0300
+
+    merge authentication branch
+
+[33mcommit 17ff76e70d76cd7e24a84f597bbf908cf67f4aa6[m[33m ([m[1;31morigin/authentication[m[33m)[m
+Author: Murilo Bergamin <murilobergamin@hotmail.com>
+Date:   Sat Jul 30 11:44:44 2022 -0300
+
+    changed login page
+
+[33mcommit 75184ca8654e0caa162aeae1080209eacc1e6d3b[m
+Author: leonardo fukuje <leonardo.fukuje@gmail.com>
+Date:   Sat Jul 30 07:01:44 2022 -0300
+
+    added cloudinary
+
+[33mcommit 78de66d004f78909f610883e571691c40cb770c1[m
+Author: leonardo fukuje <leonardo.fukuje@gmail.com>
+Date:   Sat Jul 30 06:45:34 2022 -0300
+
+    Add dotenv - Protect data in .env file
+
+[33mcommit f9ad164a80fd1c76a41c2375e742078c87f46e0a[m
+Merge: 8522f98 8b8f1d7
+Author: leonardo fukuje <leonardo.fukuje@gmail.com>
+Date:   Thu Jul 28 21:09:49 2022 -0300
+
+    Merge branch 'filters' of github.com:mfladeira/mentorship_lewagon into servicesView
+
+[33mcommit 8b8f1d7f536adb1d20d070586b7e2bcebca9dc31[m
+Merge: 63d4b8b a52ad46
+Author: Mateus Ferreira <mateusferreira0704@gmail.com>
+Date:   Thu Jul 28 21:08:09 2022 -0300
+
+    Merge branch 'master' of github.com:mfladeira/mentorship_lewagon into filters
+
+[33mcommit 8522f98ccc9938246c898b7cd953b9040c67d71f[m[33m ([m[1;32mfilters[m[33m)[m
+Merge: 63d4b8b a52ad46
+Author: leonardo fukuje <leonardo.fukuje@gmail.com>
+Date:   Thu Jul 28 21:07:44 2022 -0300
+
+    Merge branch 'master' of github.com:mfladeira/mentorship_lewagon into filters
+
+[33mcommit a52ad462b30de598d46b768ca656af2a5acdeab0[m
+Merge: d576062 05eba41
+Author: Mateus Ferreira <mateusferreira0704@gmail.com>
+Date:   Thu Jul 28 21:06:29 2022 -0300
+
+    Merge pull request #2 from mfladeira/authentication
+    
+    Authentication
+
+[33mcommit 05eba41743b8564e2df602ab1ef72c43b934ffde[m
+Author: Murilo Bergamin <murilobergamin@hotmail.com>
+Date:   Thu Jul 28 21:03:26 2022 -0300
+
+    last change
+
+[33mcommit 3011fe67e8b3ce0e38ddd6ebd54b2bc4fda6b69c[m
+Merge: 043c41e d576062
+Author: Murilo Bergamin <murilobergamin@hotmail.com>
+Date:   Thu Jul 28 20:59:21 2022 -0300
+
+    Merge branch 'master' of github.com:mfladeira/mentorship_lewagon into authentication
+
+[33mcommit 63d4b8b04b1b69a4df868427ebbcbe06ddcc6a83[m
+Author: Mateus Ferreira <mateusferreira0704@gmail.com>
+Date:   Thu Jul 28 20:50:28 2022 -0300
+
+    added filter by category
+
+[33mcommit d5760628f971da8bf4e9988842cfd47f9ac1184d[m
+Merge: 7e96738 06dd815
+Author: Mateus Ferreira <mateusferreira0704@gmail.com>
+Date:   Thu Jul 28 19:30:58 2022 -0300
+
+    Merge pull request #1 from mfladeira/homepage
+    
+    Homepage
+
+[33mcommit 043c41e52bb8bfec550ba6f9269837dd64e63421[m
+Author: Murilo Bergamin <murilobergamin@hotmail.com>
+Date:   Thu Jul 28 19:14:05 2022 -0300
+
+    add a bootstrap to login/signin
+
+[33mcommit 06dd815c5b01499bce8400cfc682602543cc875c[m[33m ([m[1;31morigin/homepage[m[33m, [m[1;32mhomepage[m[33m)[m
+Author: leonardo fukuje <leonardo.fukuje@gmail.com>
+Date:   Thu Jul 28 16:27:11 2022 -0300
+
+    details added
+
+[33mcommit e2889e0395fd43864f4ec2327e74d6237d33488c[m
+Author: leonardo fukuje <leonardo.fukuje@gmail.com>
+Date:   Thu Jul 28 14:35:40 2022 -0300
+
+    correcting text error
+
+[33mcommit 0f60b2f0dd69d7cb30e587363ae1405e020d2565[m
+Author: leonardo fukuje <leonardo.fukuje@gmail.com>
+Date:   Thu Jul 28 14:04:14 2022 -0300
+
+    responsive homepage
+
+[33mcommit 04c28273d9abad1c766b47154a82b29cce89f12b[m
+Author: leonardo fukuje <leonardo.fukuje@gmail.com>
+Date:   Thu Jul 28 07:21:04 2022 -0300
+
+    added banner and bootstrap collapsed
+
+[33mcommit 606b13724ac040f977cb35a924770fa388718a9a[m[33m ([m[1;31morigin/login[m[33m)[m
+Author: Mateus Ferreira <mateusferreira0704@gmail.com>
+Date:   Tue Jul 26 21:43:37 2022 -0300
+
+    changes
+
+[33mcommit 7e967387d17d4fd50f612a8981236ab7fe6c9599[m[33m ([m[1;32mmaster[m[33m)[m
+Author: Murilo Bergamin <murilobergamin@hotmail.com>
+Date:   Tue Jul 26 20:15:30 2022 -0300
+
+    add tables and models

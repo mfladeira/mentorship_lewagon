@@ -7,9 +7,11 @@ Rails.application.routes.draw do
     sessions: 'users/sessions'
   }
 
-  resources :services, only: [:index, :new, :create] do
+  resources :services, only: [:index, :new, :create, :show] do
     resources :orders, only: [:index, :new, :create]
   end
 
   get '/get-mentors/:specialty', to: 'services#show_mentors_by_specialty'
+
+  get '/get-orders-of-user', to: 'orders#get_orders'
 end

@@ -1,0 +1,35 @@
+  <div class="containerSchedule">
+    <div class="container">
+      <div class="title-detail">
+        <h2 class="text-center my-5 h2-show ">Schedule a Meeting</h2>
+      </div>
+
+      <div class="card mb-5 background-show ">
+          <div class="row no-gutters white-text d-flex justify-content-center ">
+              <div class="col-auto">
+                  <%= cl_image_tag @service.user.photo.key, style:"width: 40rem; height: 30rem", class:"img-fluid" %>
+              </div>
+              <div class="col">
+                  <div class="pt-5 mt-3 card-block px-2 py-4 card-show">
+                    <div>
+                      <h3 class="show-name">Hello, I'm <u><%= @service.user.full_name %></u></h3>
+                      <p> I'm a <%= @service.specialty %> professional who is willing to help you achieve your goals. </p> <hr>
+                    </div>
+
+                    <strong><p> <mark>Get to know me better:</mark></strong> <%= @service.description %></p> <hr>
+
+                    <div>
+                      <strong><p>Book a meeting with me for: <mark>$<%= @service.price %>/hour<mark></p></strong>
+                      <%= form_with url: "/services/#{@service[:id]}/orders", method: :post do |form| %>
+                        <%= form.datetime_field :date %>
+                        <%= form.submit "Reservar", class: 'btn-reserve' %>
+                      <% end %>
+                    </div>
+
+                  </div>
+              </div>
+          </div>
+      </div>
+    </div>
+  </div>
+  <%= render "pages/footer" %>
