@@ -40,8 +40,9 @@
 }
 
 .background-orders{
-background-color: #081020;
-height: 100vh;
+  height: calc(100vh - 70px);
+  background-color: #081020;
+  overflow-y: scroll;
 }
 
 .background-orders-1{

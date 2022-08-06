@@ -1,0 +1,6 @@
+<h1>service</h1>
+<% if @service.size != 0 %>
+  <p><%= @service.first[:price] %></p>
+<% else %>
+  <p>sem serviço</p>
+<% end %>
