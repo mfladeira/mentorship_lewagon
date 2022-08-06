@@ -2,10 +2,10 @@
   <div class="form">
     <h3 class="title">Create a service</h3>
     <%= simple_form_for(@service) do |f| %>
-      <%= f.input :description %>
-      <%= f.input :specialty, collection: Service::SPECIALTIES %>
+      <%= f.input :description, placeholder: "Enter a description" %>
+      <%= f.input :specialty, collection: Service::SPECIALTIES, selected: 1 %>
       <%= f.input :price, input_html: { min: '1', value: '1'}, as: :integer %>
-      <%= f.submit %>
+      <%= f.submit class: 'btn-flat' %>
     <% end %>
   </div>
 </div>

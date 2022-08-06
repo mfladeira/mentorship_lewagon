@@ -1,9 +1,12 @@
 .containerForm {
   width: 100vw;
+  height: 100vh;
+  overflow: hidden;
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   flex-direction: column;
   align-items: center;
+  background-color: #081020;
 
   .form {
     width: 35vw;
@@ -11,7 +14,7 @@
 
     .title {
       margin: 0;
-      color: black;
+      color: white;
       text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
       font-size: 30px;
       font-weight: bold;

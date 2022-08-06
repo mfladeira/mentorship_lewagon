@@ -13,7 +13,7 @@ class ServicesController < ApplicationController
   end
 
   def show_service_of_user
-    @service = Service.where('user_id = ?', current_user.id)
+    @service = Service.where('user_id = ?', current_user.id).first
   end
 
   def new
